@@ -1,0 +1,63 @@
+{
+    "PipelineName": "PreAnchorAllinoneSatSnapshot",
+    "NodesList": {
+        "Node": [
+        {
+            "NodeName": "com.xiaomi.plugin.mialgoanchor",
+            "NodeInstance": "PreAnchorInstance1",
+            "NodeProperty":[
+            {
+                "NodePropertyName":"NodeMask",
+                "NodePropertyValue":49
+            }
+            ]
+        },
+        {
+            "NodeName": "com.xiaomi.plugin.ecdsnapshotdet",
+            "NodeInstance": "EcdInstance0",
+            "NodeProperty": [
+                {
+                    "NodePropertyName": "NodeMask",
+                    "NodePropertyValue": 49
+                }
+            ]
+        }
+      ]
+    },
+    "PortLinkages": {
+        "Link": [
+        {
+            "SrcPort": {
+                "PortId": 0,
+                "NodeInstance": "SourceBuffer0"
+            },
+            "DstPort": {
+                "PortId": 0,
+                "NodeInstance": "EcdInstance0",
+                "PortFormat": "RAW10"
+            }
+        },
+        {
+            "SrcPort": {
+                "PortId": 0,
+                "NodeInstance": "EcdInstance0"
+            },
+            "DstPort": {
+                "PortId": 0,
+                "NodeInstance": "PreAnchorInstance1",
+                "PortFormat": "RAW10"
+            }
+        },
+        {
+            "SrcPort": {
+                "PortId": 0,
+                "NodeInstance": "PreAnchorInstance1"
+            },
+            "DstPort": {
+                "PortId": 0,
+                "NodeInstance": "SinkBuffer0"
+            }
+        }
+        ]
+    }
+}

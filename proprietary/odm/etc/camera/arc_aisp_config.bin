@@ -1,0 +1,6 @@
+device_name:P11
+process_timeout_ms:7000
+error_code_origin:-50011,-50010,5005
+error_code_mapper:1400,1400,1400
+enable_xdr_callback:0
+hdsr_ae_ratio_strategy:1

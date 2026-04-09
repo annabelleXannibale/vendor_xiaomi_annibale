@@ -1,0 +1,29 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "QRD", "Dragon", "Surf", "HDK", "RCM"],
+    "soc_id": ["618"]
+  },
+  "pd9702":{
+    "owner": "pd9702",
+    ".ois":{
+      "owner": "pd9702",
+      ".config":{
+        "owner": "pd9702",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  }
+}
+

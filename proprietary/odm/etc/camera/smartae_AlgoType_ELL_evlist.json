@@ -1,0 +1,86 @@
+{
+    "Description": "Xiaomi SmartAE config file - Arbitrator",
+    "phone_code": "P11",
+    "jsonVersion": "ELL-V2.0-20250616",
+
+    "AlgoType_ELL": {
+        "CHECKER": {
+            "UW": {
+                "Description": "EV list",
+                "counts": 1,
+                "ev_index": [ 0 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 273 ]
+                    }
+                ]
+            },
+            "WIDE": {
+                "Description": "EV list",
+                "counts": 1,
+                "ev_index": [ 0 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 273 ]
+                    }
+                ]
+            },
+            "TELE": {
+                "Description": "EV list",
+                "counts": 1,
+                "ev_index": [ 0 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 273 ]
+                    }
+                ]
+            },
+            "ULTRATELE": {
+                "Description": "EV list",
+                "counts": 1,
+                "ev_index": [ 0 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 273 ]
+                    }
+                ]
+            }
+
+        },
+        "LIST": [
+            {
+                "Description": "V_0, psl 6*EV0, 1*EV-, 1*EV--",
+                "frames": 8,
+                "ev_value": [ 0, 0, 0, 0, 0, 0, -1, -2 ],
+                "capture_mode": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+                "adrc_on": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "sensor_mode": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+                "min_exp_check": false,
+                "change_to_index": null
+            }
+        ]
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

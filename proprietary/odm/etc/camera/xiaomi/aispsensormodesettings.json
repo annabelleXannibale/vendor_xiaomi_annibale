@@ -1,0 +1,140 @@
+{
+    "CameraIdList": {
+        "CameraId": [
+            {
+                //CameraId:rear wide
+                "PhysicalId": 1,
+                //ALGO Definition AISP_BAYER_RGGB
+                "BayerPattern": 0,
+                "AispSensorModeInfoMap":[
+                    {
+                        //aisp sensor mode: binning
+                        "aispSensorMode": 0,
+                        "SensorModeList": [1, 8],
+                        "imageWidthList": [4096,4096],
+                        "imageHeightList": [3072, 2304]
+                    },
+                    {
+                        //aisp sensor mode: quad(12.5M)
+                        "aispSensorMode": 15,
+                        "isInSensorZoom": 1,
+                        "SensorModeList": [2,7,9],
+                        "imageWidthList": [4096,8192,4096],
+                        "imageHeightList": [3072,6144,2304]
+                    },
+                    {
+                        //aisp sensor mode: HW remosaic(ISZ-remosaic)
+                        "aispSensorMode": 7,
+                        "isInSensorZoom": 1,
+                        "SensorModeList": [3,10],
+                        "imageWidthList": [4096,4096],
+                        "imageHeightList": [3072,2304]
+                    },
+                    {
+                        //aisp sensor mode: DOL2 + binning
+                        "aispSensorMode": 5,
+                        "SensorModeList": [5,12],
+                        "imageWidthList": [4096,4096],
+                        "imageHeightList": [3072,2304]
+                    },
+                    {
+                        //aisp sensor mode: DOL2 + Quad
+                        "aispSensorMode": 11,
+                        "SensorModeList": [6,13],
+                        "imageWidthList": [4096,4096],
+                        "imageHeightList": [3072,2304]
+                    },
+                    {
+                        //aisp sensor mode: quad(50M)
+                        "aispSensorMode": 4,
+                        "qcfaFactor": 2,
+                        "SensorModeList": [14],
+                        "imageWidthList": [8192],
+                        "imageHeightList": [4608]
+                    },
+                    {
+                        //aisp sensor mode: DXG-timing
+                        "aispSensorMode": 1,
+                        "SensorModeList": [4,11],
+                        "imageWidthList": [4096,4096],
+                        "imageHeightList": [3072,2304]
+                    },
+                    {
+                        //aisp sensor mode: HW remosaic
+                        "aispSensorMode": 7,
+                        "SensorModeList": [0],
+                        "imageWidthList": [8192],
+                        "imageHeightList": [6144]
+                    }
+                ]
+            },
+            {
+                //CameraId:rear tele
+                "PhysicalId": 2,
+                //ALGO Definition AISP_BAYER_RGGB
+                "BayerPattern": 0,
+                "AispSensorModeInfoMap":[
+                    {
+                        //aisp sensor mode: binning
+                        "aispSensorMode": 0,
+                        "SensorModeList": [1, 6],
+                        "imageWidthList": [4096, 4096],
+                        "imageHeightList": [3072, 2304]
+                    },
+                    {
+                        //aisp sensor mode: quad(50M)
+                        "aispSensorMode": 4,
+                        "qcfaFactor": 2,
+                        "SensorModeList": [0,7],
+                        "imageWidthList": [8192,8192],
+                        "imageHeightList": [6144,4608]
+                    },
+                    {
+                        //aisp sensor mode: quad(12.5M)
+                        "aispSensorMode": 15,
+                        "qcfaFactor": 2,
+                        "SensorModeList": [9,11],
+                        "imageWidthList": [4096,4096],
+                        "imageHeightList": [3072,2304]
+                    },
+                    {
+                        //aisp sensor mode: DOL2 + binning  DAG combine+Crop
+                        "aispSensorMode": 5,
+                        "SensorModeList": [3],
+                        "imageWidthList": [4096],
+                        "imageHeightList": [2560]
+                    }
+                ]
+            },
+            {
+                //CameraId:rear ultra
+                "PhysicalId": 3,
+                //ALGO Definition AISP_BAYER_GRBG
+                "BayerPattern": 0,
+                "AispSensorModeInfoMap":[
+                    {
+                        //aisp sensor mode: binning
+                        "aispSensorMode": 0,
+                        "SensorModeList": [0, 1],
+                        "imageWidthList": [3264,3264],
+                        "imageHeightList": [2448,1836]
+                    }
+                ]
+            },
+            {
+                //CameraId:front
+                "PhysicalId": 17,
+                "BayerPattern": 2,
+                "AispSensorModeInfoMap":[
+                    {
+                        //aisp sensor mode: binning
+                        "aispSensorMode": 0,
+                        "SensorModeList": [1, 4],
+                        "imageWidthList": [2592, 2592],
+                        "imageHeightList": [1944, 1458]
+                    }
+                ]
+            }
+        ]
+    }
+}

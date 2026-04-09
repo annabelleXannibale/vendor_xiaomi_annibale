@@ -1,0 +1,974 @@
+{
+    "Description": "Xiaomi SmartAE config file - Arbitrator",
+    "phone_code": "P11",
+    "jsonVersion": "HDRSR-V2.0-20250922",
+
+    "NEW_HDR_EV_CAL": {
+        "CLASSIC": {
+            "UW": {
+                "light": [ 15, 30, 40, 60 ],
+
+                "MAPPING": {
+                    "using_interp": false,
+                    "ev_dark_adrc_coef0": [ -1.15, -1.25, -1.35, -1.4 ],
+                    "ev_dark_adrc_coef1": [ -6, -6, -6, -6 ],
+                    "ev_bri_adrc_coef0": [ 1, 1, 1, 1 ],
+                    "ev_bri_adrc_coef1": [ 0, 0, 0, 0 ],
+                    "adrc_gain_array": [
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ]
+                    ],
+                    "ev_dark_array": [
+                        [ -18, -20, -24, -30, -36, -38, -39, -39 ],
+                        [ -20, -24, -28, -33, -38, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ]
+                    ]
+
+                },
+                "COMPENSATE": {
+                    "overexp_th": [ 0.95, 0.95, 0.95, 0.95 ],
+                    "compen_coef": [ -1.5, -1.5, -1.5, -1.5 ],
+                    "raw_compen_w": [ 0.4, 0.4, 0.4, 0.4 ],
+                    "global_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "local_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "raw_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "global_compen_base": [ 0.05, 0.05, 0.05, 0.05 ],
+                    "local_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "compen_max": [ -20, -20, -20, -20 ]
+                },
+                "ANTICOMPENSATE": {
+                    "dark_luma_min": [ 1, 1, 1, 1 ],
+                    "dark_valid_ratio": [ 0.8, 0.8, 0.8, 0.8 ],
+                    "anti_weight": [ 0.8, 0.8, 0.8, 0.2 ]
+                },
+                "EV_LIMITS": {
+                    "need_sky_limit": true,
+                    "ev_sky_neg_min": [ -33, -33, -33, -33 ],
+                    "ev_sky_neg_max": [ -24, -24, -24, -24 ],
+                    "sky_ratio_th": [ 0.1, 0.1, 0.1, 0.1 ],
+                    "ev_neg_min": [ -39, -39, -39, -39 ],
+                    "ev_neg_max": [ -12, -12, -12, -12 ],
+                    "ev_short_min": [ -21, -21, -21, -21 ],
+                    "ev_short_max": [ -6, -6, -6, -6 ],
+                    "ev_pos_min": [ 6, 6, 6, 6 ],
+                    "ev_pos_max": [ 30, 30, 30, 30 ],
+                    "vs_offset": [ 0, 0, 0, 0 ],
+                    "special_scene_limit": false,
+                    "CONCERT": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIRE": {
+                        "ev_neg_min": [ -39, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIREWORKS": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    }
+                },
+                "PROGRAM_EV": {
+
+                    "VS_EV": {
+                        "Description": "vs_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "SHORT_EV": {
+                        "Description": "short_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "BRIGHT_EV": {
+                        "Description": "bright_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    }
+
+                }
+            },
+            "WIDE": {
+                "light": [ 15, 30, 40, 60 ],
+
+                "MAPPING": {
+                    "using_interp": false,
+                    "ev_dark_adrc_coef0": [ -1.15, -1.25, -1.35, -1.4 ],
+                    "ev_dark_adrc_coef1": [ -6, -6, -6, -6 ],
+                    "ev_bri_adrc_coef0": [ 1, 1, 1, 1 ],
+                    "ev_bri_adrc_coef1": [ 0, 0, 0, 0 ],
+                    "adrc_gain_array": [
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ]
+                    ],
+                    "ev_dark_array": [
+                        [ -18, -20, -24, -30, -36, -38, -39, -39 ],
+                        [ -20, -24, -28, -33, -38, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ]
+                    ]
+
+                },
+                "COMPENSATE": {
+                    "overexp_th": [ 0.95, 0.95, 0.95, 0.95 ],
+                    "compen_coef": [ -1.5, -1.5, -1.5, -1.5 ],
+                    "raw_compen_w": [ 0.4, 0.4, 0.4, 0.4 ],
+                    "global_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "local_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "raw_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "global_compen_base": [ 0.05, 0.05, 0.05, 0.05 ],
+                    "local_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "compen_max": [ -20, -20, -20, -20 ]
+                },
+                "ANTICOMPENSATE": {
+                    "dark_luma_min": [ 1, 1, 1, 1 ],
+                    "dark_valid_ratio": [ 0.8, 0.8, 0.8, 0.8 ],
+                    "anti_weight": [ 0.8, 0.8, 0.8, 0.2 ]
+                },
+                "EV_LIMITS": {
+                    "need_sky_limit": true,
+                    "ev_sky_neg_min": [ -33, -33, -33, -33 ],
+                    "ev_sky_neg_max": [ -24, -24, -24, -24 ],
+                    "sky_ratio_th": [ 0.1, 0.1, 0.1, 0.1 ],
+                    "ev_neg_min": [ -39, -39, -39, -39 ],
+                    "ev_neg_max": [ -12, -12, -12, -12 ],
+                    "ev_short_min": [ -21, -21, -21, -21 ],
+                    "ev_short_max": [ -6, -6, -6, -6 ],
+                    "ev_pos_min": [ 6, 6, 6, 6 ],
+                    "ev_pos_max": [ 30, 30, 30, 30 ],
+                    "vs_offset": [ 0, 0, 0, 0 ],
+                    "special_scene_limit": false,
+                    "CONCERT": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIRE": {
+                        "ev_neg_min": [ -39, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIREWORKS": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    }
+                },
+                "PROGRAM_EV": {
+
+                    "VS_EV": {
+                        "Description": "vs_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "SHORT_EV": {
+                        "Description": "short_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "BRIGHT_EV": {
+                        "Description": "bright_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    }
+
+                }
+            },
+            "TELE": {
+                "light": [ 15, 30, 40, 60 ],
+
+                "MAPPING": {
+                    "using_interp": false,
+                    "ev_dark_adrc_coef0": [ -1.15, -1.25, -1.35, -1.4 ],
+                    "ev_dark_adrc_coef1": [ -6, -6, -6, -6 ],
+                    "ev_bri_adrc_coef0": [ 1, 1, 1, 1 ],
+                    "ev_bri_adrc_coef1": [ 0, 0, 0, 0 ],
+                    "adrc_gain_array": [
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ]
+                    ],
+                    "ev_dark_array": [
+                        [ -18, -20, -24, -30, -36, -38, -39, -39 ],
+                        [ -20, -24, -28, -33, -38, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ]
+                    ]
+
+                },
+                "COMPENSATE": {
+                    "overexp_th": [ 0.95, 0.95, 0.95, 0.95 ],
+                    "compen_coef": [ -1.5, -1.5, -1.5, -1.5 ],
+                    "raw_compen_w": [ 0.4, 0.4, 0.4, 0.4 ],
+                    "global_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "local_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "raw_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "global_compen_base": [ 0.05, 0.05, 0.05, 0.05 ],
+                    "local_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "compen_max": [ -20, -20, -20, -20 ]
+                },
+                "ANTICOMPENSATE": {
+                    "dark_luma_min": [ 1, 1, 1, 1 ],
+                    "dark_valid_ratio": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "anti_weight": [ 0.8, 0.8, 0.8, 0.2 ]
+                },
+                "EV_LIMITS": {
+                    "need_sky_limit": true,
+                    "ev_sky_neg_min": [ -33, -33, -33, -33 ],
+                    "ev_sky_neg_max": [ -24, -24, -24, -24 ],
+                    "sky_ratio_th": [ 0.1, 0.1, 0.1, 0.1 ],
+                    "ev_neg_min": [ -39, -39, -39, -39 ],
+                    "ev_neg_max": [ -12, -12, -12, -12 ],
+                    "ev_short_min": [ -21, -21, -21, -21 ],
+                    "ev_short_max": [ -6, -6, -6, -6 ],
+                    "ev_pos_min": [ 6, 6, 6, 6 ],
+                    "ev_pos_max": [ 30, 30, 30, 30 ],
+                    "vs_offset": [ 0, 0, 0, 0 ],
+                    "special_scene_limit": false,
+                    "CONCERT": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIRE": {
+                        "ev_neg_min": [ -39, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIREWORKS": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    }
+                },
+                "PROGRAM_EV": {
+
+                    "VS_EV": {
+                        "Description": "vs_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "SHORT_EV": {
+                        "Description": "short_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "BRIGHT_EV": {
+                        "Description": "bright_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    }
+
+                }
+            },
+            "ULTRATELE": {
+                "light": [ 15, 30, 40, 60 ],
+
+                "MAPPING": {
+                    "using_interp": false,
+                    "ev_dark_adrc_coef0": [ -1.15, -1.25, -1.35, -1.4 ],
+                    "ev_dark_adrc_coef1": [ -6, -6, -6, -6 ],
+                    "ev_bri_adrc_coef0": [ 1, 1, 1, 1 ],
+                    "ev_bri_adrc_coef1": [ 0, 0, 0, 0 ],
+                    "adrc_gain_array": [
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ]
+                    ],
+                    "ev_dark_array": [
+                        [ -18, -20, -24, -30, -36, -38, -39, -39 ],
+                        [ -20, -24, -28, -33, -38, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ]
+                    ]
+
+                },
+                "COMPENSATE": {
+                    "overexp_th": [ 0.95, 0.95, 0.95, 0.95 ],
+                    "compen_coef": [ -1.5, -1.5, -1.5, -1.5 ],
+                    "raw_compen_w": [ 0.4, 0.4, 0.4, 0.4 ],
+                    "global_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "local_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "raw_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "global_compen_base": [ 0.05, 0.05, 0.05, 0.05 ],
+                    "local_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "compen_max": [ -20, -20, -20, -20 ]
+                },
+                "ANTICOMPENSATE": {
+                    "dark_luma_min": [ 1, 1, 1, 1 ],
+                    "dark_valid_ratio": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "anti_weight": [ 0.8, 0.8, 0.8, 0.2 ]
+                },
+                "EV_LIMITS": {
+                    "need_sky_limit": true,
+                    "ev_sky_neg_min": [ -33, -33, -33, -33 ],
+                    "ev_sky_neg_max": [ -24, -24, -24, -24 ],
+                    "sky_ratio_th": [ 0.1, 0.1, 0.1, 0.1 ],
+                    "ev_neg_min": [ -39, -39, -39, -39 ],
+                    "ev_neg_max": [ -12, -12, -12, -12 ],
+                    "ev_short_min": [ -21, -21, -21, -21 ],
+                    "ev_short_max": [ -6, -6, -6, -6 ],
+                    "ev_pos_min": [ 6, 6, 6, 6 ],
+                    "ev_pos_max": [ 30, 30, 30, 30 ],
+                    "vs_offset": [ 0, 0, 0, 0 ],
+                    "special_scene_limit": false,
+                    "CONCERT": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIRE": {
+                        "ev_neg_min": [ -39, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIREWORKS": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    }
+                },
+                "PROGRAM_EV": {
+
+                    "VS_EV": {
+                        "Description": "vs_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "SHORT_EV": {
+                        "Description": "short_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "BRIGHT_EV": {
+                        "Description": "bright_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    }
+
+                }
+            }
+        },
+        "VIBRANT": {
+            "UW": {
+                "light": [ 15, 30, 40, 60 ],
+
+                "MAPPING": {
+                    "using_interp": false,
+                    "ev_dark_adrc_coef0": [ -1.15, -1.25, -1.35, -1.4 ],
+                    "ev_dark_adrc_coef1": [ -6, -6, -6, -6 ],
+                    "ev_bri_adrc_coef0": [ 1, 1, 1, 1 ],
+                    "ev_bri_adrc_coef1": [ 0, 0, 0, 0 ],
+                    "adrc_gain_array": [
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ]
+                    ],
+                    "ev_dark_array": [
+                        [ -18, -20, -24, -30, -36, -38, -39, -39 ],
+                        [ -20, -24, -28, -33, -38, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ]
+                    ]
+
+                },
+                "COMPENSATE": {
+                    "overexp_th": [ 0.95, 0.95, 0.95, 0.95 ],
+                    "compen_coef": [ -1.5, -1.5, -1.5, -1.5 ],
+                    "raw_compen_w": [ 0.4, 0.4, 0.4, 0.4 ],
+                    "global_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "local_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "raw_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "global_compen_base": [ 0.05, 0.05, 0.05, 0.05 ],
+                    "local_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "compen_max": [ -20, -20, -20, -20 ]
+                },
+                "ANTICOMPENSATE": {
+                    "dark_luma_min": [ 1, 1, 1, 1 ],
+                    "dark_valid_ratio": [ 0.8, 0.8, 0.8, 0.8 ],
+                    "anti_weight": [ 0.8, 0.8, 0.8, 0.2 ]
+                },
+                "EV_LIMITS": {
+                    "need_sky_limit": true,
+                    "ev_sky_neg_min": [ -33, -33, -33, -33 ],
+                    "ev_sky_neg_max": [ -24, -24, -24, -24 ],
+                    "sky_ratio_th": [ 0.1, 0.1, 0.1, 0.1 ],
+                    "ev_neg_min": [ -39, -39, -39, -39 ],
+                    "ev_neg_max": [ -12, -12, -12, -12 ],
+                    "ev_short_min": [ -21, -21, -21, -21 ],
+                    "ev_short_max": [ -6, -6, -6, -6 ],
+                    "ev_pos_min": [ 6, 6, 6, 6 ],
+                    "ev_pos_max": [ 30, 30, 30, 30 ],
+                    "vs_offset": [ 0, 0, 0, 0 ],
+                    "special_scene_limit": false,
+                    "CONCERT": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIRE": {
+                        "ev_neg_min": [ -39, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIREWORKS": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    }
+                },
+                "PROGRAM_EV": {
+
+                    "VS_EV": {
+                        "Description": "vs_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "SHORT_EV": {
+                        "Description": "short_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "BRIGHT_EV": {
+                        "Description": "bright_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    }
+
+                }
+            },
+            "WIDE": {
+                "light": [ 15, 30, 40, 60 ],
+
+                "MAPPING": {
+                    "using_interp": false,
+                    "ev_dark_adrc_coef0": [ -1.15, -1.25, -1.35, -1.4 ],
+                    "ev_dark_adrc_coef1": [ -6, -6, -6, -6 ],
+                    "ev_bri_adrc_coef0": [ 1, 1, 1, 1 ],
+                    "ev_bri_adrc_coef1": [ 0, 0, 0, 0 ],
+                    "adrc_gain_array": [
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ]
+                    ],
+                    "ev_dark_array": [
+                        [ -18, -20, -24, -30, -36, -38, -39, -39 ],
+                        [ -20, -24, -28, -33, -38, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ]
+                    ]
+
+                },
+                "COMPENSATE": {
+                    "overexp_th": [ 0.95, 0.95, 0.95, 0.95 ],
+                    "compen_coef": [ -1.5, -1.5, -1.5, -1.5 ],
+                    "raw_compen_w": [ 0.4, 0.4, 0.4, 0.4 ],
+                    "global_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "local_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "raw_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "global_compen_base": [ 0.05, 0.05, 0.05, 0.05 ],
+                    "local_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "compen_max": [ -20, -20, -20, -20 ]
+                },
+                "ANTICOMPENSATE": {
+                    "dark_luma_min": [ 1, 1, 1, 1 ],
+                    "dark_valid_ratio": [ 0.8, 0.8, 0.8, 0.8 ],
+                    "anti_weight": [ 0.8, 0.8, 0.8, 0.2 ]
+                },
+                "EV_LIMITS": {
+                    "need_sky_limit": false,
+                    "ev_sky_neg_min": [ -36, -36, -36, -36 ],
+                    "ev_sky_neg_max": [ -24, -24, -24, -24 ],
+                    "sky_ratio_th": [ 0.1, 0.1, 0.1, 0.1 ],
+                    "ev_neg_min": [ -42, -42, -42, -42 ],
+                    "ev_neg_max": [ -12, -12, -12, -12 ],
+                    "ev_short_min": [ -21, -21, -21, -21 ],
+                    "ev_short_max": [ -6, -6, -6, -6 ],
+                    "ev_pos_min": [ 6, 6, 6, 6 ],
+                    "ev_pos_max": [ 30, 30, 30, 30 ],
+                    "vs_offset": [ 0, 0, 0, 0 ],
+                    "special_scene_limit": false,
+                    "CONCERT": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIRE": {
+                        "ev_neg_min": [ -39, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIREWORKS": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    }
+                },
+                "PROGRAM_EV": {
+
+                    "VS_EV": {
+                        "Description": "vs_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "SHORT_EV": {
+                        "Description": "short_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "BRIGHT_EV": {
+                        "Description": "bright_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    }
+
+                }
+            },
+            "TELE": {
+                "light": [ 15, 30, 40, 60 ],
+
+                "MAPPING": {
+                    "using_interp": false,
+                    "ev_dark_adrc_coef0": [ -1.15, -1.3, -1.35, -1.4 ],
+                    "ev_dark_adrc_coef1": [ -6, -8, -8, -8 ],
+                    "ev_bri_adrc_coef0": [ 1, 1, 1, 1 ],
+                    "ev_bri_adrc_coef1": [ 0, 0, 0, 0 ],
+                    "adrc_gain_array": [
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ]
+                    ],
+                    "ev_dark_array": [
+                        [ -18, -20, -24, -30, -36, -38, -39, -39 ],
+                        [ -20, -24, -28, -33, -38, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ]
+                    ]
+
+                },
+                "COMPENSATE": {
+                    "overexp_th": [ 0.95, 0.95, 0.95, 0.95 ],
+                    "compen_coef": [ -1.5, -1.5, -1.5, -1.5 ],
+                    "raw_compen_w": [ 0.4, 0.4, 0.4, 0.4 ],
+                    "global_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "local_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "raw_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "global_compen_base": [ 0.05, 0.05, 0.05, 0.05 ],
+                    "local_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "compen_max": [ -20, -20, -20, -20 ]
+                },
+                "ANTICOMPENSATE": {
+                    "dark_luma_min": [ 1, 1, 1, 1 ],
+                    "dark_valid_ratio": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "anti_weight": [ 0.0, 0.0, 0.0, 0.0 ]
+                },
+                "EV_LIMITS": {
+                    "need_sky_limit": false,
+                    "ev_sky_neg_min": [ -33, -33, -33, -33 ],
+                    "ev_sky_neg_max": [ -24, -24, -24, -24 ],
+                    "sky_ratio_th": [ 0.1, 0.1, 0.1, 0.1 ],
+                    "ev_neg_min": [ -42, -42, -42, -42 ],
+                    "ev_neg_max": [ -12, -12, -12, -12 ],
+                    "ev_short_min": [ -21, -21, -21, -21 ],
+                    "ev_short_max": [ -6, -6, -6, -6 ],
+                    "ev_pos_min": [ 6, 6, 6, 6 ],
+                    "ev_pos_max": [ 30, 30, 30, 30 ],
+                    "vs_offset": [ 0, 0, 0, 0 ],
+                    "special_scene_limit": false,
+                    "CONCERT": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIRE": {
+                        "ev_neg_min": [ -39, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIREWORKS": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    }
+                },
+                "PROGRAM_EV": {
+
+                    "VS_EV": {
+                        "Description": "vs_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "SHORT_EV": {
+                        "Description": "short_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "BRIGHT_EV": {
+                        "Description": "bright_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    }
+
+                }
+            },
+            "ULTRATELE": {
+                "light": [ 15, 30, 40, 60 ],
+
+                "MAPPING": {
+                    "using_interp": false,
+                    "ev_dark_adrc_coef0": [ -1.15, -1.25, -1.35, -1.4 ],
+                    "ev_dark_adrc_coef1": [ -6, -6, -6, -6 ],
+                    "ev_bri_adrc_coef0": [ 1, 1, 1, 1 ],
+                    "ev_bri_adrc_coef1": [ 0, 0, 0, 0 ],
+                    "adrc_gain_array": [
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ],
+                        [ 1.0, 2.0, 3.0, 4.0, 6.0, 8.0, 12.0, 16.0 ]
+                    ],
+                    "ev_dark_array": [
+                        [ -18, -20, -24, -30, -36, -38, -39, -39 ],
+                        [ -20, -24, -28, -33, -38, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ],
+                        [ -33, -34, -35, -36, -39, -39, -39, -39 ]
+                    ]
+
+                },
+                "COMPENSATE": {
+                    "overexp_th": [ 0.95, 0.95, 0.95, 0.95 ],
+                    "compen_coef": [ -1.5, -1.5, -1.5, -1.5 ],
+                    "raw_compen_w": [ 0.4, 0.4, 0.4, 0.4 ],
+                    "global_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "local_compen_w": [ 0.3, 0.3, 0.3, 0.3 ],
+                    "raw_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "global_compen_base": [ 0.05, 0.05, 0.05, 0.05 ],
+                    "local_compen_base": [ 0.01, 0.01, 0.01, 0.01 ],
+                    "compen_max": [ -20, -20, -20, -20 ]
+                },
+                "ANTICOMPENSATE": {
+                    "dark_luma_min": [ 1, 1, 1, 1 ],
+                    "dark_valid_ratio": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "anti_weight": [ 0.8, 0.8, 0.8, 0.2 ]
+                },
+                "EV_LIMITS": {
+                    "need_sky_limit": true,
+                    "ev_sky_neg_min": [ -33, -33, -33, -33 ],
+                    "ev_sky_neg_max": [ -24, -24, -24, -24 ],
+                    "sky_ratio_th": [ 0.1, 0.1, 0.1, 0.1 ],
+                    "ev_neg_min": [ -39, -39, -39, -39 ],
+                    "ev_neg_max": [ -12, -12, -12, -12 ],
+                    "ev_short_min": [ -21, -21, -21, -21 ],
+                    "ev_short_max": [ -6, -6, -6, -6 ],
+                    "ev_pos_min": [ 6, 6, 6, 6 ],
+                    "ev_pos_max": [ 30, 30, 30, 30 ],
+                    "vs_offset": [ 0, 0, 0, 0 ],
+                    "special_scene_limit": false,
+                    "CONCERT": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIRE": {
+                        "ev_neg_min": [ -39, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    },
+                    "FIREWORKS": {
+                        "ev_neg_min": [ -30, -30, -30, -30 ],
+                        "ev_neg_max": [ -12, -12, -12, -12 ],
+                        "ev_short_min": [ -21, -21, -21, -21 ],
+                        "ev_short_max": [ -6, -6, -6, -6 ]
+                    }
+                },
+                "PROGRAM_EV": {
+
+                    "VS_EV": {
+                        "Description": "vs_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "SHORT_EV": {
+                        "Description": "short_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    },
+                    "BRIGHT_EV": {
+                        "Description": "bright_ev",
+                        "counts": 0,
+                        "ev_adjust": null,
+                        "CONDITIONS": null
+                    }
+
+                }
+            }
+        }
+
+    },
+
+    "AlgoType_HDRSR": {
+        "CHECKER": {
+            "WIDE": {
+                "Description": "EV list",
+                "counts": 7,
+                "ev_index": [ 0, 1, 2, 3, 4, 6, 7 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 1, 7939, 7939, 7939, 7939, 7939, 7939 ]
+                    },
+                    {
+                        "condition": "sensor_mode",
+                        "operator": "=",
+                        "value": [ 51, 32768, 32768, 1, 1, 34, 34 ]
+                    },
+                    {
+                        "condition": "motion",
+                        "operator": "=",
+                        "value": [ 0, -1, -1, -1, -1, -1, -1 ]
+                    },
+                    {
+                        "condition": "is_led_on",
+                        "operator": "=",
+                        "value": [ -1, -1, -1, -1, -1, 0, 1 ]
+                    },
+                    {
+                        "condition": "ui_livephoto",
+                        "operator": "=",
+                        "value": [ 0, -1, -1, -1, -1, -1, -1 ]
+                    },
+                    {
+                        "condition": "realzoom",
+                        "operator": "<",
+                        "value": [ 2, 2, -1, 2, -1, -1, -1 ]
+                    },
+                    {
+                        "condition": "realzoom",
+                        "operator": ">=",
+                        "value": [ -1, -1, 2, -1, 2, -1, -1 ]
+                    },
+                    {
+                        "condition": "iso",
+                        "operator": "<=",
+                        "value": [ 800, -1, -1, -1, -1, -1, -1 ]
+                    }
+                ]
+            },
+            "TELE": {
+                "Description": "EV list",
+                "counts": 5,
+                "ev_index": [ 0, 1, 2, 3, 4 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 1, 7939, 7939, 7939, 7939 ]
+                    },
+                    {
+                        "condition": "sensor_mode",
+                        "operator": "=",
+                        "value": [ 51, 32768, 32768, 1, 1 ]
+                    },
+                    {
+                        "condition": "motion",
+                        "operator": "=",
+                        "value": [ 0, -1, -1, -1, -1 ]
+                    },
+                    {
+                        "condition": "ui_livephoto",
+                        "operator": "=",
+                        "value": [ 0, -1, -1, -1, -1 ]
+                    },
+                    {
+                        "condition": "realzoom",
+                        "operator": "<",
+                        "value": [ 2, 2, -1, 2, -1 ]
+                    },
+                    {
+                        "condition": "realzoom",
+                        "operator": ">=",
+                        "value": [ 1.5, -1, 2, -1, 2 ]
+                    },
+                    {
+                        "condition": "iso",
+                        "operator": "<=",
+                        "value": [ 800, -1, -1, -1, -1 ]
+                    }
+                ]
+            }
+
+        },
+        "LIST": [
+            {
+                "Description": "V_0: 50Mquad psl 4*ev0, ev-, ev--",
+                "frames": 6,
+                "ev_value": [ 0, 0, 0, 0, -1, -2 ],
+                "capture_mode": [ 1, 1, 1, 1, 1, 1 ],
+                "adrc_on": [ 1, 1, 1, 1, 0, 0 ],
+                "sensor_mode": [ 4, 4, 4, 4, 4, 4 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ -1, -1, -1, -1, -1, -1 ],
+                "adjust_adrc": true
+            },
+            {
+                "Description": "V_1: iszquad zsl 4*ev0, psl ev-, ev--",
+                "frames": 6,
+                "ev_value": [ 0, 0, 0, 0, -1, -2 ],
+                "capture_mode": [ 0, 0, 0, 0, 1, 1 ],
+                "adrc_on": [ 1, 1, 1, 1, 0, 0 ],
+                "sensor_mode": [ -1, -1, -1, -1, 15, 15 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ -1, -1, -1, -1, -1, -1 ],
+                "adjust_adrc": false
+            },
+            {
+                "Description": "V_2: iszquad zsl 6*ev0, psl ev-, ev--",
+                "frames": 8,
+                "ev_value": [ 0, 0, 0, 0, 0, 0, -1, -2 ],
+                "capture_mode": [ 0, 0, 0, 0, 0, 0, 1, 1 ],
+                "adrc_on": [ 1, 1, 1, 1, 1, 1, 0, 0 ],
+                "sensor_mode": [ -1, -1, -1, -1, -1, -1, 15, 15 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ -1, -1, -1, -1, -1, -1, -1, -1 ],
+                "adjust_adrc": false
+            },
+            {
+                "Description": "V_3: binning zsl 6*ev0, psl ev- ev--",
+                "frames": 8,
+                "ev_value": [ 0, 0, 0, 0, 0, 0, -1, -2 ],
+                "capture_mode": [ 0, 0, 0, 0, 0, 0, 1, 1 ],
+                "adrc_on": [ 1, 1, 1, 1, 1, 1, 0, 0 ],
+                "sensor_mode": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ -1, -1, -1, -1, -1, -1, -1, -1 ]
+            },
+            {
+                "Description": "V_4: binning zsl 8*ev0, psl ev- ev--",
+                "frames": 10,
+                "ev_value": [ 0, 0, 0, 0, 0, 0, 0, 0, -1, -2 ],
+                "capture_mode": [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ],
+                "adrc_on": [ 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 ],
+                "sensor_mode": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 ]
+            },
+            {
+                "Description": "V_5: zsl 4*ev0 4*ev-255, psl ev0, ev--",
+                "frames": 10,
+                "ev_value": [ 0, 0, 0, 0, -3, -3, -3, -3, 0, -2],
+                "capture_mode": [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ],
+                "adrc_on": [ 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 ],
+                "sensor_mode": [ -1, -1, -1, -1, -1, -1, -1, -1, 5, 5 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ -1, -1, -1, -1, -1, -1, -1, -1, 1, 1 ],
+                "min_exp_check": false,
+                "change_to_index": null
+            },
+            {
+                "Description": "V_6: zsl 4 * (ev0 + ev-255) , psl ev0, ev--",
+                "frames": 10,
+                "ev_value": [ 0, -3, 0, -3, 0, -3, 0, -3, 0, -2],
+                "capture_mode": [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ],
+                "adrc_on": [ 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 ],
+                "sensor_mode": [ -1, -1, -1, -1, -1, -1, -1, -1, 5, 5 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ -1, -1, -1, -1, -1, -1, -1, -1, 1, 1 ],
+                "min_exp_check": false,
+                "change_to_index": null
+            },
+            {
+                "Description": "V_7: binning psl 6*ev0, psl ev- ev--",
+                "frames": 8,
+                "ev_value": [ 0, 0, 0, 0, 0, 0, -1, -2 ],
+                "capture_mode": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+                "adrc_on": [ 1, 1, 1, 1, 1, 1, 0, 0 ],
+                "sensor_mode": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "ois_sync": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "motion_exp_type": [ -1, -1, -1, -1, -1, -1, -1, -1 ]
+            }
+
+        ],
+        "SLAVE_LIST": [
+            {
+                "Description": "V_0: anchor , ev- , ev--",
+                "frames": 3,
+                "ev_value": [ 2, -1, -2 ],
+                "capture_mode": [ 0, 1, 1 ],
+                "adrc_on": [ 1, 0, 0 ],
+                "sensor_mode": [ -1, -1, -1 ],
+                "motion_exp_type": [ -1, -1, -1 ]
+            }
+        ]
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

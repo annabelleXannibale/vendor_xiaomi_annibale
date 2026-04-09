@@ -1,0 +1,158 @@
+{
+    "Description": "Xiaomi SmartAE config file - Arbitrator",
+    "phone_code": "O1",
+    "jsonVersion": "SNSC-V2.0-20241011",
+
+    "QUICKSHOT_CHECK": {
+        "CHANGE_ALGO": {
+            "counts": 1,
+            "CONDITIONS": null
+        },
+        "CHANGE_CAPTURE_MODE": null,
+        "CHANGE_FRAMES": {
+            "min_ev0_cnt": [ 1 ],
+            "counts": 1,
+            "CONDITIONS": [
+                {
+                    "condition": "banding_detected",
+                    "operator": "=",
+                    "value": [ 0 ]
+                }
+            ]
+        },
+        "CHANGE_SENSOR": null
+
+    },
+
+    "AlgoType_SNSC": {
+        "CHECKER": {
+            "UW": {
+                "Description": "EV list",
+                "counts": 2,
+                "ev_index": [ 0, 1 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 515, 515 ]
+                    },
+                    {
+                        "condition": "sensor_mode",
+                        "operator": "=",
+                        "value": [ 1, 1 ]
+                    },
+                    {
+                        "condition": "banding_detected",
+                        "operator": "=",
+                        "value": [ 0, 1 ]
+                    }
+                ]
+
+            },
+            "WIDE": {
+                "Description": "EV list",
+                "counts": 2,
+                "ev_index": [ 0, 1 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 515, 515 ]
+                    },
+                    {
+                        "condition": "sensor_mode",
+                        "operator": "=",
+                        "value": [ 1, 1 ]
+                    },
+                    {
+                        "condition": "banding_detected",
+                        "operator": "=",
+                        "value": [ 0, 1 ]
+                    }
+                ]
+            },
+            "TELE": {
+                "Description": "EV list",
+                "counts": 2,
+                "ev_index": [ 0, 1 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 515, 515 ]
+                    },
+                    {
+                        "condition": "sensor_mode",
+                        "operator": "=",
+                        "value": [ 1, 1 ]
+                    },
+                    {
+                        "condition": "banding_detected",
+                        "operator": "=",
+                        "value": [ 0, 1 ]
+                    }
+                ]
+            },
+            "ULTRATELE": {
+                "Description": "EV list",
+                "counts": 2,
+                "ev_index": [ 0, 1 ],
+                "CONDITIONS": [
+                    {
+                        "condition": "camera_mode",
+                        "operator": "=",
+                        "value": [ 515, 515 ]
+                    },
+                    {
+                        "condition": "sensor_mode",
+                        "operator": "=",
+                        "value": [ 1, 1 ]
+                    },
+                    {
+                        "condition": "banding_detected",
+                        "operator": "=",
+                        "value": [ 0, 1 ]
+                    }
+                ]
+            }
+
+        },
+        "LIST": [
+            {
+                "Description": "V_0 SSSSSSSS",
+                "frames": 8,
+                "ev_value": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "capture_mode": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "adrc_on": [ 1, 1, 1, 1, 1, 1, 1, 1 ],
+                "sensor_mode": [ -1, -1, -1, -1, -1, -1, -1, -1 ],
+                "motion_exp_type": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+                "min_exp_check": false,
+                "change_to_index": null
+            },
+            {
+                "Description": "V_0 SLSLSL",
+                "frames": 6,
+                "ev_value": [ 0, 0, 0, 0, 0, 0 ],
+                "capture_mode": [ 0, 0, 0, 0, 0, 0 ],
+                "adrc_on": [ 1, 1, 1, 1, 1, 1 ],
+                "sensor_mode": [ -1, -1, -1, -1, -1, -1 ],
+                "motion_exp_type": [ 0, 1, 0, 1, 0, 1 ],
+                "min_exp_check": false,
+                "change_to_index": null
+            }
+        ]
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

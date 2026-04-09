@@ -1,0 +1,28 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "QRD", "Dragon", "Surf", "HDK", "RCM"],
+    "soc_id": ["618"]
+  },
+  "gt978x":{
+    "owner": "gt978x",
+    ".ois":{
+      "owner": "gt978x",
+      ".config":{
+        "owner": "gt978x",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  }
+}
