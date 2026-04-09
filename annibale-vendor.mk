@@ -2836,7 +2836,7 @@ PRODUCT_PACKAGES += \
     libsysmon_cdsp_skel \
     libsystem_health_mon2 \
     libtaautoload \
-    libtensorflowlite_c \
+    libtensorflowlite_c_vendor \
     libtestutils \
     libthermalclient \
     libthreadutils \
