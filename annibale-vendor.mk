@@ -2292,6 +2292,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
+    android.hardware.bluetooth.audio-impl_prebuilt \
     android.hardware.common-V2-ndk_platform \
     android.hardware.security.keymint-V3-ndk_prebuilt \
     android.media.audio.common.types-V6-ndk \
@@ -2419,6 +2420,7 @@ PRODUCT_PACKAGES += \
     libar-pal \
     libarmemlog \
     libats \
+    libaudio_aidl_conversion_common_ndk_prebuilt \
     libaudio_log_utils \
     libaudiochargerlistener \
     libaudiocloudctrl \
@@ -2431,6 +2433,7 @@ PRODUCT_PACKAGES += \
     libbase64 \
     libbatching \
     libbatterylistener \
+    libbluetooth_audio_session_aidl_prebuilt \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
