@@ -1407,7 +1407,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/odm/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default-spatializer.xml \
     vendor/xiaomi/annibale/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/annibale/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
-    vendor/xiaomi/annibale/proprietary/odm/etc/init/android.hardware.authsecret-service.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.authsecret-service.nxp.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/android.hardware.weaver-service.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.weaver-service.nxp.rc \
@@ -3562,7 +3561,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_hdr_raw \
     libarcsoft_turbo_hdr_raw_portrait \
     libaudioroute_ext \
-    libauthsecret_empty-nxp \
     libauto_focus_stark \
     libbarrage \
     libbitmlengine \
@@ -3913,7 +3911,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.quickcamera.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
-    android.hardware.authsecret-service.nxp.xml \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.security.keymint-service.strongbox.xml \
     android.hardware.security.sharedsecret-service.strongbox.xml \
@@ -4063,7 +4060,6 @@ PRODUCT_PACKAGES += \
     xtwifi-client \
     qccsyshal_aidl-service \
     wfdservice64 \
-    android.hardware.authsecret-service.nxp-qti \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.security.keymint-service.strongbox-nxp \
     android.hardware.weaver-service.nxp-qti \

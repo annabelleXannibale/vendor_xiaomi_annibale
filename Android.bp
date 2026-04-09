@@ -39726,33 +39726,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libauthsecret_empty-nxp",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libauthsecret_empty-nxp.so",
-            ],
-            shared_libs: [
-                "android.hardware.authsecret-V1-ndk",
-                "android.se.omapi-V1-ndk",
-                "libcppbor_external",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libauto_focus_stark",
     owner: "xiaomi",
     strip: {
@@ -48047,15 +48020,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.authsecret-service.nxp.xml",
-    owner: "xiaomi",
-    src: "proprietary/odm/etc/vintf/manifest/android.hardware.authsecret-service.nxp.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.gnss-aidl-service-qti.xml",
     owner: "xiaomi",
     src: "proprietary/odm/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml",
@@ -52201,37 +52165,6 @@ cc_prebuilt_binary {
     },
     prefer: true,
     system_ext_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.authsecret-service.nxp-qti",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/bin/hw/android.hardware.authsecret-service.nxp-qti",
-            ],
-            shared_libs: [
-                "android.hardware.authsecret-V1-ndk",
-                "libbase",
-                "libbinder_ndk",
-                "android.se.omapi-V1-ndk",
-                "libjc_keymint_transport_nxp",
-                "libcppbor_external",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    device_specific: true,
 }
 
 cc_prebuilt_binary {
