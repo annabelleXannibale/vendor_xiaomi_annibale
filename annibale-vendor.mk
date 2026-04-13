@@ -2540,6 +2540,8 @@ PRODUCT_PACKAGES += \
     libizat_core \
     libjni_fdfeature \
     libjnihelper \
+    libjpegdecoder_annibale \
+    libjpegencoder_annibale \
     libkcl \
     libkcl_a730 \
     libkernelmanager \
@@ -2848,6 +2850,7 @@ PRODUCT_PACKAGES += \
     libtracker_6dof_impl \
     libtrustedapploader \
     libubwcp \
+    libultrahdr_annibale \
     libultrasound_notify \
     libvideoservice_utils \
     libvideoserviceutils \
