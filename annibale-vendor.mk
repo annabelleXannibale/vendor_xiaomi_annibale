@@ -1845,6 +1845,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/annibale/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/annibale/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/xiaomi/annibale/proprietary/product/etc/permissions/lpa.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/lpa.xml \
     vendor/xiaomi/annibale/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/annibale/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.qccsyshal_aidl-service.rc \
     vendor/xiaomi/annibale/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
@@ -3803,6 +3804,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     com.qualcomm.qti.gpudrivers.sun.api35 \
     uimgbaservice \
+    EuiccGoogle \
     AtFwd2 \
     FrameworksUtilsSysService \
     QCC \
@@ -3815,6 +3817,7 @@ PRODUCT_PACKAGES += \
     androidx.camera.extensions.impl \
     uimgbalibrary \
     uimgbamanagerlibrary \
+    uimlpalibrary \
     uimservicelibrary \
     qcrilhook \
     vendor.qti.ims.connection-V1.0-java \

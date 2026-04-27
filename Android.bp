@@ -46956,6 +46956,19 @@ android_app_import {
 }
 
 android_app_import {
+    name: "EuiccGoogle",
+    owner: "xiaomi",
+    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
     name: "AtFwd2",
     owner: "xiaomi",
     apk: "proprietary/system_ext/app/AtFwd2/AtFwd2.apk",
@@ -47084,6 +47097,15 @@ dex_import {
     owner: "xiaomi",
     jars: [
         "proprietary/product/framework/uimgbamanagerlibrary.jar",
+    ],
+    product_specific: true,
+}
+
+dex_import {
+    name: "uimlpalibrary",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/product/framework/uimlpalibrary.jar",
     ],
     product_specific: true,
 }
