@@ -2283,7 +2283,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/annibale/proprietary/vendor/gpu/kbc/unified_kbcs_64_a730.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64_a730.bin \
     vendor/xiaomi/annibale/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/xiaomi/annibale/proprietary/vendor/gpu/kbc/unified_ksqs_a730.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs_a730.bin
+    vendor/xiaomi/annibale/proprietary/vendor/gpu/kbc/unified_ksqs_a730.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs_a730.bin \
+    vendor/xiaomi/annibale/proprietary/vendor/lib64/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm.so \
+    vendor/xiaomi/annibale/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
+    vendor/xiaomi/annibale/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
+    vendor/xiaomi/annibale/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
+    vendor/xiaomi/annibale/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
+    vendor/xiaomi/annibale/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
@@ -2322,7 +2328,6 @@ PRODUCT_PACKAGES += \
     libaudiocorehal.qti \
     libaudioeffecthal.qti \
     libqtigatekeeper \
-    libsoundtriggerhal.qti \
     mapper.qti \
     mbedtls_qti \
     vendor.qti.hardware.alarm-impl \
@@ -2388,9 +2393,6 @@ PRODUCT_PACKAGES += \
     libWlanServiceJni \
     lib_AIVC_decoder \
     lib_AIVC_encoder \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     lib_bt_lhdc \
     lib_bt_mihc \
     lib_lvacfs \
@@ -2400,25 +2402,14 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libagm \
-    libagm_compress_plugin \
-    libagm_mixer_plugin \
-    libagm_pcm_plugin \
-    libagmclient \
-    libagmipcservice \
     libagmmixer \
     libaodoptfeature \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
     libar-pal \
     libarmemlog \
-    libats \
     libaudio_aidl_conversion_common_ndk_prebuilt \
     libaudio_log_utils \
-    libaudiochargerlistener \
     libaudiocloudctrl \
     libaudioplatformconverter.qti \
     libaudioroute_annibale \
@@ -2428,7 +2419,6 @@ PRODUCT_PACKAGES += \
     libbacklight-calib \
     libbase64 \
     libbatching \
-    libbatterylistener \
     libbluetooth_audio_session_aidl_prebuilt \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
@@ -2465,7 +2455,6 @@ PRODUCT_PACKAGES += \
     libcodecclientmanager \
     libconfigdb \
     libcpion \
-    libcustomva_intf \
     libcv_common \
     libdapparamstorage \
     libdataitems \
@@ -2510,7 +2499,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libfeutils \
     libfilefinder \
-    libfmpal \
     libgame_enhance \
     libgdtap \
     libgeofencing \
@@ -2532,9 +2520,7 @@ PRODUCT_PACKAGES += \
     libhdrdynamic \
     libhdrdynamicootf \
     libhdrvivid \
-    libhfp_pal \
     libhistogram \
-    libhotword_intf \
     libidl \
     libintervmipc \
     libizat_client_api \
@@ -2583,8 +2569,6 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     liblvacfs_wrapper \
-    liblx-ar_util \
-    liblx-osal \
     libmapdata_api \
     libmapperutils \
     libmcs \
@@ -2647,8 +2631,6 @@ PRODUCT_PACKAGES += \
     libos \
     libpal_net_if \
     libpalclient \
-    libpaleventnotifier \
-    libpalipcservice \
     libpdmapper \
     libpdnotifier \
     libperfconfig \
@@ -2807,7 +2789,6 @@ PRODUCT_PACKAGES += \
     libsn220u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
-    libsndcardparser \
     libsns_device_mode_stub \
     libsns_direct_channel_stub \
     libsns_dynamic_loader_stub \
@@ -2867,7 +2848,6 @@ PRODUCT_PACKAGES += \
     libvpplibrary \
     libvui_dmgr \
     libvui_dmgr_client \
-    libvui_intf \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -2963,27 +2943,17 @@ PRODUCT_PACKAGES += \
     libworker_pool \
     sensors.qsh \
     libaudiopreprocessing \
-    libbundleaidl \
     libdlbvolaidl \
-    libdownmixaidl \
-    libdynamicsprocessingaidl \
     libdynproc \
     libeffectproxy \
     libhwdapaidl \
     libldnhncr \
-    libloudnessenhanceraidl \
     liblvacfsprocessingaidl \
     libmiwndnsprocessingaidl \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
     libquasar \
-    libreverbaidl \
     libspatializeraidl \
     libswgamedapaidl \
     libswspatializeraidl \
-    libvisualizeraidl \
-    libvolumelistener \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -3868,7 +3838,6 @@ PRODUCT_PACKAGES += \
     qtiradio-saidl.xml \
     secure_element-service.xml \
     snapdragon_services.xml \
-    soundtrigger.qti.xml \
     vendor.dolby.media.c2-default-service-dax.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.hardware.alarm.xml \
@@ -3925,17 +3894,10 @@ PRODUCT_PACKAGES += \
     SoterProvisioningTool \
     adpl \
     adsprpcd \
-    agmcap \
-    agmcompresscap \
-    agmcompressplay \
-    agmhostless \
-    agmplay \
-    agmvoiceui \
     batterysecret \
     cdsprpcd \
     cnd \
     cnss-daemon \
-    cplay \
     diag-router \
     displayfeature \
     dspservice \
