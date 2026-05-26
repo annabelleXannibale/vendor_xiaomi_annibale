@@ -1399,9 +1399,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/odm/etc/disp0/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd/mi_gc_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd/mi_gc_1.txt \
     vendor/xiaomi/annibale/proprietary/odm/etc/disp0/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd/mi_gc_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd/mi_gc_2.txt \
     vendor/xiaomi/annibale/proprietary/odm/etc/disp0/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd/mi_gc_3.txt \
-    vendor/xiaomi/annibale/proprietary/odm/etc/display/mdss_dsi_p11_42_02_0b_dsc_cmd_bl.json:$(TARGET_COPY_OUT_ODM)/etc/display/mdss_dsi_p11_42_02_0b_dsc_cmd_bl.json \
-    vendor/xiaomi/annibale/proprietary/odm/etc/display/mdss_dsi_p11_42_0d_0a_dsc_cmd_bl.json:$(TARGET_COPY_OUT_ODM)/etc/display/mdss_dsi_p11_42_0d_0a_dsc_cmd_bl.json \
-    vendor/xiaomi/annibale/proprietary/odm/etc/display/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd_bl.json:$(TARGET_COPY_OUT_ODM)/etc/display/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd_bl.json \
     vendor/xiaomi/annibale/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_p11_42_02_0b_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_p11_42_02_0b_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/annibale/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_p11_42_0d_0a_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_p11_42_0d_0a_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/annibale/proprietary/odm/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default-spatializer.xml \
@@ -1994,7 +1991,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/display/ubwc_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/ubwc_alignments.json \
     vendor/xiaomi/annibale/proprietary/vendor/etc/display/video_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/video_alignments.json \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/display/xiaomi_o1_38_0c_0b_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/xiaomi_o1_38_0c_0b_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/annibale/proprietary/vendor/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default-spatializer.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
