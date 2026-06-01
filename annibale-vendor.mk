@@ -3118,7 +3118,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.micharge-V2-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk \
     vendor.xiaomi.hardware.videoservice-V7-ndk \
-    vendor.xiaomi.hw.touchfeature-V1-ndk \
     vendor.xiaomi.sensor.camera-V1-ndk \
     vendor.xiaomi.sensor.citsensorservice-V1-ndk \
     vendor_lib_rfsa_adsp_activity_napp_header \
