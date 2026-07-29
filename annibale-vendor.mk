@@ -2956,6 +2956,8 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.3 \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
+    vendor.display.color@1.6 \
+    vendor.display.color@1.7 \
     vendor.display.postproc@1.0 \
     vendor.dolby.dms-V1-ndk \
     vendor.dolby.hardware.dms@2.0 \
