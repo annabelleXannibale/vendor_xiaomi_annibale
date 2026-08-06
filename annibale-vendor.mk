@@ -1401,11 +1401,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/odm/etc/disp0/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_p11_42_0d_0a_p10_dsc_cmd/mi_gc_3.txt \
     vendor/xiaomi/annibale/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_p11_42_02_0b_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_p11_42_02_0b_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/annibale/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_p11_42_0d_0a_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_p11_42_0d_0a_cmd_mode_dsc_dsi_panel.json \
-    vendor/xiaomi/annibale/proprietary/odm/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default-spatializer.xml \
-    vendor/xiaomi/annibale/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/annibale/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/xiaomi/annibale/proprietary/odm/etc/init/dvs-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/dvs-aidl-service.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/init.boled.lightsensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.boled.lightsensor.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
     vendor/xiaomi/annibale/proprietary/odm/etc/init/init.sia91xx.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.sia91xx.rc \
@@ -1490,7 +1487,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/odm/etc/sensors/config/sx937x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sx937x_0.json \
     vendor/xiaomi/annibale/proprietary/odm/etc/sensors/config/sx937x_reg_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sx937x_reg_0.json \
     vendor/xiaomi/annibale/proprietary/odm/etc/sixth_wrapper_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/sixth_wrapper_cfg.xml \
-    vendor/xiaomi/annibale/proprietary/odm/etc/surfaceflinger/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/surfaceflinger/dolby_vision.cfg \
     vendor/xiaomi/annibale/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
     vendor/xiaomi/annibale/proprietary/odm/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
     vendor/xiaomi/annibale/proprietary/odm/etc/thermal-boost.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-boost.conf \
@@ -1837,8 +1833,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/odm/lib64/qsn1rtlp43270.bin:$(TARGET_COPY_OUT_ODM)/lib64/qsn1rtlp43270.bin \
     vendor/xiaomi/annibale/proprietary/odm/lib64/qsn2all.bin:$(TARGET_COPY_OUT_ODM)/lib64/qsn2all.bin \
     vendor/xiaomi/annibale/proprietary/odm/lib64/qsn3all.bin:$(TARGET_COPY_OUT_ODM)/lib64/qsn3all.bin \
-    vendor/xiaomi/annibale/proprietary/odm/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/etc/dolby_vision.cfg \
-    vendor/xiaomi/annibale/proprietary/odm/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/persist/display/dolby_vision.cfg \
     vendor/xiaomi/annibale/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/annibale/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/xiaomi/annibale/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
@@ -1991,8 +1985,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/display/ubwc_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/ubwc_alignments.json \
     vendor/xiaomi/annibale/proprietary/vendor/etc/display/video_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/video_alignments.json \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default-spatializer.xml \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/xiaomi/annibale/proprietary/vendor/etc/encoder.serialized.8750.O3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/encoder.serialized.8750.O3.bin \
     vendor/xiaomi/annibale/proprietary/vendor/etc/eva/facedetection/bias.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/bias.dat \
@@ -2025,7 +2017,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/dcfd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dcfd.rc \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/init/dms-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dms-service.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/hexlpservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hexlpservice.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/hlosminkdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hlosminkdaemon.rc \
@@ -2070,7 +2061,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/sxrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sxrd.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/init/vendor.dolby.media.c2-default-service-dax.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2-default-service-dax.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/vendor.mbnota.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mbnota.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
@@ -2124,7 +2114,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/vendor/etc/lm/prekill/prekill_4GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_4GB.data \
     vendor/xiaomi/annibale/proprietary/vendor/etc/lm/prekill/prekill_6GB.data:$(TARGET_COPY_OUT_VENDOR)/etc/lm/prekill/prekill_6GB.data \
     vendor/xiaomi/annibale/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_mi_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mi_c2_audio.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_performance_sun.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_sun.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_profiles_sun.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_sun.xml \
@@ -2387,7 +2376,6 @@ PRODUCT_PACKAGES += \
     lib_AIVC_encoder \
     lib_bt_lhdc \
     lib_bt_mihc \
-    lib_lvacfs \
     libadm \
     libadreno_app_profiles \
     libadreno_compiler_cl \
@@ -2406,8 +2394,6 @@ PRODUCT_PACKAGES += \
     libaudioplatformconverter.qti \
     libaudioroute_annibale \
     libaudioserviceexampleimpl \
-    libav_lvacfsencoder \
-    libav_miwnsencoder \
     libbacklight-calib \
     libbase64 \
     libbatching \
@@ -2436,21 +2422,16 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libcodec2_soft_ac4dec \
     libcodec2_soft_aivc_dec \
     libcodec2_soft_aivc_enc \
-    libcodec2_soft_ddpdec \
     libcodec2_soft_mihc_dec \
     libcodec2_soft_mihc_enc \
-    libcodec2_store_dolby \
     libcodec2_store_mi \
     libcodecclientmanager \
     libconfigdb \
     libcpion \
     libcv_common \
-    libdapparamstorage \
     libdataitems \
-    libdeccfg \
     libdemura_oem_plugin \
     libdfintf \
     libdiag \
@@ -2464,13 +2445,6 @@ PRODUCT_PACKAGES += \
     libdisplayfeatureservice \
     libdisplayqos \
     libdisplayskuutils \
-    libdlbdsservice \
-    libdlbpreg \
-    libdmshal \
-    libdolbyclstc \
-    libdolbydecoderprocessor \
-    libdolbyeglcore \
-    libdolbyottcameracontrol \
     libdpp_manager \
     libdpps \
     libdrmfs \
@@ -2560,7 +2534,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblvacfs_wrapper \
     libmapdata_api \
     libmapperutils \
     libmcs \
@@ -2581,7 +2554,6 @@ PRODUCT_PACKAGES += \
     libmisfpsop \
     libmisight \
     libmisops \
-    libmisoundfx_aidl_ext \
     libmisoundsa \
     libmm-hdcpmgr \
     libmmosal_vendor \
@@ -2657,7 +2629,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_basecodec \
     libqcodec2_core \
     libqcodec2_cvpfilter \
-    libqcodec2_dolbydecoderfilter \
     libqcodec2_filterbase \
     libqcodec2_hooks \
     libqcodec2_imgtxrfilter \
@@ -2792,7 +2763,6 @@ PRODUCT_PACKAGES += \
     libsnsutils \
     libsoc_helper \
     libsoc_helper_jni \
-    libspatializerparamstorage \
     libspcom \
     libspl \
     libssc_default_listener \
@@ -2801,7 +2771,6 @@ PRODUCT_PACKAGES += \
     libstnfc-streset \
     libstreamprocessor \
     libsubsystem_control \
-    libswspatializeraidl_ext \
     libsxrservice \
     libsynergy_loc_api \
     libsynx \
@@ -2935,17 +2904,10 @@ PRODUCT_PACKAGES += \
     libworker_pool \
     sensors.qsh \
     libaudiopreprocessing \
-    libdlbvolaidl \
     libdynproc \
     libeffectproxy \
-    libhwdapaidl \
     libldnhncr \
-    liblvacfsprocessingaidl \
-    libmiwndnsprocessingaidl \
     libquasar \
-    libspatializeraidl \
-    libswgamedapaidl \
-    libswspatializeraidl \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -2955,8 +2917,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.6 \
     vendor.display.color@1.7 \
     vendor.display.postproc@1.0 \
-    vendor.dolby.dms-V1-ndk \
-    vendor.dolby.hardware.dms@2.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -3817,7 +3777,6 @@ PRODUCT_PACKAGES += \
     dataconnection-saidl.xml \
     datafactoryservice-saidl.xml \
     deviceinfo-saidl.xml \
-    dms-service.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
     manifest_btaudiocoreservices_qti.xml \
@@ -3831,7 +3790,6 @@ PRODUCT_PACKAGES += \
     qtiradio-saidl.xml \
     secure_element-service.xml \
     snapdragon_services.xml \
-    vendor.dolby.media.c2-default-service-dax.xml \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.hardware.alarm.xml \
     vendor.qti.hardware.bluetooth.xpanprovider.xml \
@@ -3871,7 +3829,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccsyshal_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
     android.hardware.gnss-aidl-service-qti.xml \
-    dvs-aidl-service.xml \
     fod-aidl.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     misensor_camera.xml \
@@ -3910,8 +3867,6 @@ PRODUCT_PACKAGES += \
     qcrilNrd \
     qvrservice \
     sxrservice \
-    vendor.dolby.dms.service \
-    vendor.dolby.media.c2-default-service-dax \
     vendor.qti.hardware.alarm-service \
     vendor.qti.hardware.capabilityconfigstore-service \
     vendor.qti.hardware.display.allocator-service \
@@ -4013,7 +3968,6 @@ PRODUCT_PACKAGES += \
     qccsyshal_aidl-service \
     wfdservice64 \
     android.hardware.gnss-aidl-service-qti \
-    dvs-aidl-service \
     misensor_camera \
     vendor.qti.camera.provider-service_64 \
     vendor.xiaomi.hardware.authsecretd \
@@ -4044,8 +3998,7 @@ PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
-    vendor_lib64_libq3dtools_adreno_so \
-    vendor_lib64_soundfx_libmisoundfx_aidl_so
+    vendor_lib64_libq3dtools_adreno_so
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
