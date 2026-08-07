@@ -2009,7 +2009,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/android.hardware.bluetooth@aidl-service-qti-debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@aidl-service-qti-debug.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/init/android.hardware.media.c2-mi-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2-mi-service.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/xiaomi/annibale/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
@@ -2420,11 +2419,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libcodec2_soft_aivc_dec \
-    libcodec2_soft_aivc_enc \
-    libcodec2_soft_mihc_dec \
-    libcodec2_soft_mihc_enc \
-    libcodec2_store_mi \
     libcodecclientmanager \
     libconfigdb \
     libcpion \
@@ -3775,7 +3769,6 @@ PRODUCT_PACKAGES += \
     imsdcservice-saidl.xml \
     manifest_btaudiocoreservices_qti.xml \
     mapper.qti.xml \
-    media_c2_mi.xml \
     mwqem-saidl.xml \
     qasr_vintf.xml \
     qcrilhook-saidl.xml \
@@ -3855,7 +3848,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@aidl-service-qti \
     android.hardware.contexthub-service.qmi \
     android.hardware.gatekeeper-service-qti \
-    android.hardware.media.c2-mi-service \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
     qcrilNrd \
