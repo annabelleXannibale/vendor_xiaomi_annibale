@@ -2127,9 +2127,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_mi_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mi_c2_audio.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_performance_sun.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_sun.xml \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_performance_sun_vendor_without_dvenc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_sun_vendor_without_dvenc.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_sun.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_sun.xml \
-    vendor/xiaomi/annibale/proprietary/vendor/etc/media_codecs_sun_vendor_without_dvenc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_sun_vendor_without_dvenc.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_profiles_sun.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_sun.xml \
     vendor/xiaomi/annibale/proprietary/vendor/etc/media_sun/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_sun/video_system_specs.json \
     vendor/xiaomi/annibale/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
